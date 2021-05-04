@@ -22,7 +22,9 @@ public class Example {
             public void onScanFinish() {
                 System.out.println("finished!");
 
-                System.out.println(String.join(",", api.getMostRecentScan(key).getAlts()));
+                Scan scan = api.getMostRecentScan(key);
+
+                System.out.println(String.join(",", scan.getAlts()));
             }
 
             public void onScanStart() {
