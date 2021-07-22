@@ -14,7 +14,7 @@ add
 <dependency>
     <groupId>ac.echo</groupId>
     <artifactId>Echo</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
 </dependency>
 ```
 to dependancies
