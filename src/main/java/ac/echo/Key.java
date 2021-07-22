@@ -11,7 +11,7 @@ public class Key {
 
     JSONObject keyObject;
 
-    Key(String key, API api) {
+    public Key(String key, API api) {
         this.api = api;
         this.key = key;
 
